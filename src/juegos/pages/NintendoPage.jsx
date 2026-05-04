@@ -1,7 +1,10 @@
+import { JuegoList } from "../components/JuegoList"
 
 
 export const NintendoPage = () => {
   return (
-    <div>NintendoPage</div>
+    <>
+      <JuegoList plataforma="Nintendo" />
+    </>
   )
 }

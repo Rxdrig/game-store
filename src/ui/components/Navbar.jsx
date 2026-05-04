@@ -23,6 +23,9 @@ export const Navbar = () => {
             <li className="nav-item">
               <NavLink className="nav-link" to="/xbox">Xbox</NavLink>
             </li>
+            <li className="nav-item">
+              <NavLink className="nav-link" to="/login">Logout</NavLink>
+            </li>
           </ul>
         </div>
       </div>
