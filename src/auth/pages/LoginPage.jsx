@@ -1,57 +1,94 @@
-import { NavLink } from "react-router-dom"
-
+import { useState } from "react"
+import { useNavigate, NavLink } from "react-router-dom"
+import "./LoginPage.css"
 
 export const LoginPage = () => {
+  const [email, setEmail] = useState("")
+  const [password, setPassword] = useState("")
+  const navigate = useNavigate()
+
+  const handleSubmit = (e) => {
+    e.preventDefault()
+    // Aquí iría la lógica de autenticación
+    if (email && password) {
+      navigate("/home")
+    }
+  }
+
   return (
-  <section className="vh-100">
-  <div className="container py-5 h-100">
-    <div className="row d-flex justify-content-center align-items-center h-100">
-      <div className="col col-xl-10">
-        <div className="card">
-          <div className="row g-0">
-            <div className="col-md-6 col-lg-5 d-none d-md-block">
-              <img src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-login-form/img1.webp"
-                alt="login form" className="img-fluid" />
+    <div className="login-page">
+      <div className="login-container">
+        {/* Brand Header */}
+        <div className="login-header">
+          <div className="login-brand-mark">🎮</div>
+          <h1 className="login-title">GameHub</h1>
+        </div>
+
+        {/* Glass Form Card */}
+        <div className="glass-login-card">
+          <h2 className="form-heading">Sign In</h2>
+          <p className="form-subtitle">Welcome back, gamer</p>
+
+          <form onSubmit={handleSubmit} className="login-form">
+            {/* Email Input */}
+            <div className="form-group">
+              <label htmlFor="email" className="form-label">Email</label>
+              <input
+                type="email"
+                id="email"
+                className="form-input"
+                placeholder="you@example.com"
+                value={email}
+                onChange={(e) => setEmail(e.target.value)}
+                required
+              />
             </div>
-            <div className="col-md-6 col-lg-7 d-flex align-items-center">
-              <div className="card-body p-4 p-lg-5 text-black">
 
-                <form>
-
-                  <div className="d-flex align-items-center mb-3 pb-1">
-                    <i className="fas fa-cubes fa-2x me-3" ></i>
-                    <span className="h1 fw-bold mb-0">Logo</span>
-                  </div>
-
-                  <h5 className="fw-normal mb-3 pb-3" >Sign into your account</h5>
-
-                  <div data-mdb-input-init className="form-outline mb-4">
-                    <input type="email" id="form2Example17" className="form-control form-control-lg" />
-                    <label className="form-label" for="form2Example17">Email address</label>
-                  </div>
-
-                  <div data-mdb-input-init className="form-outline mb-4">
-                    <input type="password" id="form2Example27" className="form-control form-control-lg" />
-                    <label className="form-label" for="form2Example27">Password</label>
-                  </div>
-
-                  <div className="pt-1 mb-4">
-                    <NavLink className="btn btn-primary" to="/">Login</NavLink>
-                  </div>
-
-                  <a className="small text-muted" href="#!">Forgot password?</a>
-                  <p className="mb-5 pb-lg-2">Don't have an account? <a href="#!">Register here</a></p>
-                  <a href="#!" className="small text-muted">Terms of use.</a>
-                  <a href="#!" className="small text-muted">Privacy policy</a>
-                </form>
-
-              </div>
+            {/* Password Input */}
+            <div className="form-group">
+              <label htmlFor="password" className="form-label">Password</label>
+              <input
+                type="password"
+                id="password"
+                className="form-input"
+                placeholder="••••••••"
+                value={password}
+                onChange={(e) => setPassword(e.target.value)}
+                required
+              />
             </div>
+
+            {/* Remember Me & Forgot Password */}
+            <div className="form-row-between">
+              <label className="checkbox-label">
+                <input type="checkbox" />
+                <span>Remember me</span>
+              </label>
+              <a href="#" className="forgot-link">Forgot password?</a>
+            </div>
+
+            {/* Sign In Button */}
+            <button type="submit" className="btn-signin">
+              Sign In
+            </button>
+          </form>
+
+          {/* Register Link */}
+          <div className="form-divider">
+            <span>Don't have an account?</span>
+          </div>
+          <NavLink to="/register" className="btn-register">
+            Create Account
+          </NavLink>
+
+          {/* Footer Links */}
+          <div className="form-footer">
+            <a href="#" className="footer-link">Terms of Use</a>
+            <span className="footer-separator">•</span>
+            <a href="#" className="footer-link">Privacy Policy</a>
           </div>
         </div>
       </div>
     </div>
-  </div>
-</section>
   )
 }

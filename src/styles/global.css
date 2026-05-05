@@ -1,0 +1,201 @@
+/* ========================================
+   GLOBAL DARK THEME - GAME STORE
+   ======================================== */
+
+/* CSS Variables */
+:root {
+  --primary-dark: #0f0f0f;
+  --secondary-dark: #1a1a1a;
+  --tertiary-dark: #2a2a2a;
+  --accent-purple: #8b5cf6;
+  --accent-pink: #ec4899;
+  --accent-red: #ef4444;
+  --text-light: #e5e7eb;
+  --text-muted: #9ca3af;
+  --border-dark: #3a3a3a;
+}
+
+/* Reset & Base */
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', 'Roboto', 'Inter', sans-serif;
+  background-color: var(--primary-dark);
+  color: var(--text-light);
+  line-height: 1.6;
+}
+
+/* Typography */
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 700;
+  margin-bottom: 1rem;
+  letter-spacing: -0.5px;
+}
+
+h1 {
+  font-size: clamp(1.75rem, 4vw, 3rem);
+}
+
+h2 {
+  font-size: clamp(1.5rem, 3vw, 2.25rem);
+}
+
+h3 {
+  font-size: 1.25rem;
+}
+
+/* Links */
+a {
+  color: var(--accent-purple);
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: var(--accent-pink);
+}
+
+/* Images */
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+/* Bootstrap Customization */
+.btn-primary {
+  background: linear-gradient(135deg, var(--accent-purple) 0%, var(--accent-pink) 100%);
+  border: none;
+  font-weight: 600;
+  padding: 0.6rem 1.5rem;
+  border-radius: 6px;
+  transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(139, 92, 246, 0.4);
+}
+
+.btn-primary:active {
+  transform: translateY(0);
+}
+
+/* Cards Base */
+.card {
+  background-color: var(--secondary-dark);
+  border: 1px solid var(--border-dark);
+  border-radius: 12px;
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+
+.card:hover {
+  border-color: var(--accent-purple);
+  box-shadow: 0 8px 25px rgba(139, 92, 246, 0.15);
+}
+
+.card-body {
+  padding: 1.25rem;
+}
+
+/* Navbar Dark Custom */
+.navbar-dark {
+  background-color: var(--secondary-dark) !important;
+  border-bottom: 1px solid var(--border-dark);
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+  font-weight: 700;
+  background: linear-gradient(135deg, var(--accent-purple), var(--accent-pink));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.nav-link {
+  color: var(--text-light) !important;
+  font-weight: 500;
+  position: relative;
+  transition: color 0.3s ease;
+}
+
+.nav-link::after {
+  content: '';
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background: linear-gradient(135deg, var(--accent-purple), var(--accent-pink));
+  transition: width 0.3s ease;
+}
+
+.nav-link:hover::after {
+  width: 100%;
+}
+
+.nav-link.active {
+  color: var(--accent-purple) !important;
+}
+
+.nav-link.active::after {
+  width: 100%;
+}
+
+/* Container & Spacing */
+.container {
+  max-width: 1400px;
+}
+
+.section-title {
+  border-left: 4px solid var(--accent-purple);
+  padding-left: 1rem;
+  margin-bottom: 2rem;
+}
+
+/* Utilities */
+.text-gradient {
+  background: linear-gradient(135deg, var(--accent-purple), var(--accent-pink));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.glow-effect {
+  box-shadow: 0 0 20px rgba(139, 92, 246, 0.3);
+}
+
+.glass-effect {
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  h1 {
+    font-size: 1.75rem;
+  }
+  
+  h2 {
+    font-size: 1.25rem;
+  }
+  
+  .section-title {
+    border-left: none;
+    border-bottom: 2px solid var(--accent-purple);
+    padding-left: 0;
+    padding-bottom: 0.5rem;
+  }
+}
