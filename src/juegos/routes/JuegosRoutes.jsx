@@ -5,6 +5,7 @@ import { HomePage } from "../pages/HomePage"
 import { PlaystationPage } from "../pages/PlaystationPage"
 import { NintendoPage } from "../pages/NintendoPage"
 import { XboxPage } from "../pages/XboxPage"
+import { JuegoPage } from "../pages/JuegoPage"
 
 
 export const JuegosRoutes = () => {
@@ -17,6 +18,7 @@ export const JuegosRoutes = () => {
             <Route path="playstation" element={<PlaystationPage />}></Route>
             <Route path="nintendo" element={<NintendoPage />}></Route>
             <Route path="xbox" element={<XboxPage />}></Route>
+            <Route path="juego/:id" element={<JuegoPage />}></Route>
         </Routes>
         <Footer/>
     </>
