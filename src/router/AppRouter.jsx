@@ -1,6 +1,6 @@
 import { Routes, Route } from "react-router-dom"
 import { LoginPage } from "../auth/pages/LoginPage"
-import { JuegosRoutes } from "../juegos/routes/JuegosRoutes"
+import { GamesRoutes } from "../juegos/routes/GamesRoutes"
 
 
 export const AppRouter = () => {
@@ -8,7 +8,7 @@ export const AppRouter = () => {
     <>
       <Routes>
           <Route path="login" element={<LoginPage />} />
-          <Route path="/*" element={<JuegosRoutes />} />   
+          <Route path="/*" element={<GamesRoutes />} />   
       </Routes>
     </>
   )

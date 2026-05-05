@@ -15,13 +15,13 @@ export const Navbar = () => {
               <NavLink className="nav-link" to="/home">Home</NavLink>
             </li>
             <li className="nav-item">
-              <NavLink className="nav-link" to="/playstation">Playstation</NavLink>
+              <NavLink className="nav-link" to="/catalog/playstation">Playstation</NavLink>
             </li>
             <li className="nav-item">
-              <NavLink className="nav-link" to="/nintendo">Nintendo</NavLink>
+              <NavLink className="nav-link" to="/catalog/nintendo">Nintendo</NavLink>
             </li>
             <li className="nav-item">
-              <NavLink className="nav-link" to="/xbox">Xbox</NavLink>
+              <NavLink className="nav-link" to="/catalog/xbox">Xbox</NavLink>
             </li>
             <li className="nav-item">
               <NavLink className="nav-link" to="/login">Logout</NavLink>
