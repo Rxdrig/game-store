@@ -1,0 +1,14 @@
+[
+  {
+    "id": 1,
+    "email": "persist@demo.com",
+    "password": "abc123",
+    "createdAt": "2026-05-06T01:18:40.665Z"
+  },
+  {
+    "id": 2,
+    "email": "rodrigo.mella20@inacapmail.cl",
+    "password": "123456",
+    "createdAt": "2026-05-06T01:28:34.271Z"
+  }
+]

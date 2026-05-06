@@ -1,0 +1,59 @@
+.purchase-confirmation {
+  border: 1px solid rgba(139, 92, 246, 0.28);
+  border-radius: 14px;
+  padding: 1rem;
+  background: rgba(139, 92, 246, 0.08);
+}
+
+.purchase-confirmation h5 {
+  margin-bottom: 0.35rem;
+}
+
+.purchase-confirmation-text {
+  margin: 0 0 0.85rem;
+  color: var(--text-muted);
+}
+
+.purchase-keys-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 0.7rem;
+}
+
+.purchase-keys-list li {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+  padding: 0.7rem 0.8rem;
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.06);
+}
+
+.purchase-key-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+}
+
+.purchase-keys-list strong {
+  letter-spacing: 0.04em;
+}
+
+.purchase-key-copy {
+  border: 1px solid rgba(139, 92, 246, 0.35);
+  border-radius: 999px;
+  padding: 0.32rem 0.75rem;
+  font-size: 0.85rem;
+  color: #e9d5ff;
+  background: rgba(139, 92, 246, 0.12);
+}
+
+.purchase-key-copy.is-copied {
+  border-color: rgba(59, 130, 246, 0.4);
+  color: #dbeafe;
+  background: rgba(59, 130, 246, 0.14);
+}

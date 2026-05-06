@@ -1,0 +1,89 @@
+.purchase-confirmation-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 1050;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  background: rgba(6, 8, 18, 0.08);
+  backdrop-filter: blur(2px);
+}
+
+.purchase-confirmation-modal {
+  width: min(100%, 560px);
+  max-height: min(90vh, 720px);
+  overflow: auto;
+  border: 1px solid rgba(139, 92, 246, 0.28);
+  border-radius: 20px;
+  padding: 1.25rem;
+  background: linear-gradient(180deg, rgba(15, 23, 42, 0.98), rgba(10, 14, 26, 0.98));
+  box-shadow: none;
+  text-align: center;
+}
+
+.purchase-confirmation-modal-header {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+  padding-right: 0;
+}
+
+.purchase-confirmation-modal-header > div {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.purchase-confirmation-modal-header h4 {
+  margin: 0;
+}
+
+.purchase-confirmation-close {
+  position: absolute;
+  top: 0;
+  right: 0;
+  border: none;
+  border-radius: 999px;
+  width: 36px;
+  height: 36px;
+  color: #fff;
+  background: rgba(255, 255, 255, 0.08);
+}
+
+.purchase-confirmation-modal-actions {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.purchase-confirmation-modal .purchase-confirmation {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.purchase-confirmation-modal .purchase-confirmation-text {
+  text-align: center;
+}
+
+.purchase-confirmation-modal .purchase-keys-list {
+  width: 100%;
+}
+
+.purchase-confirmation-modal .purchase-keys-list li {
+  align-items: center;
+}
+
+@media (max-width: 576px) {
+  .purchase-confirmation-modal {
+    padding: 1rem;
+    border-radius: 16px;
+  }
+}
