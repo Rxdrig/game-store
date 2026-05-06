@@ -6,7 +6,7 @@ export const Footer = () => {
       <div className="footer-inner container">
         <div className="brand-row">
           <div className="brand-mark">◈</div>
-          <div className="brand-name">Neon Arcade</div>
+          <div className="brand-name">Game Store</div>
         </div>
         <div className="footer-grid">
           <div className="footer-links">
@@ -15,7 +15,7 @@ export const Footer = () => {
             <a className="footer-link" href="/contact">Contact</a>
           </div>
 
-          <p className="footer-copy">© {new Date().getFullYear()} Neon Arcade — All rights reserved.</p>
+          <p className="footer-copy">© {new Date().getFullYear()} Game Store — Rodrigo Mella.</p>
 
           <div className="social-links" aria-label="Social links">
             <a className="social-icon" href="https://twitter.com" target="_blank" rel="noreferrer">

@@ -14,7 +14,7 @@ export const Navbar = () => {
         <div className="container navbar-inner">
           <NavLink className="navbar-brand cyber-brand" to="/home" aria-label="Go to home">
             <span className="brand-mark">◈</span>
-            <span className="brand-text">Neon Arcade</span>
+            <span className="brand-text">Game Store</span>
           </NavLink>
 
           <button

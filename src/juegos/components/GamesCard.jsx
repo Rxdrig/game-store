@@ -1,8 +1,10 @@
 import { Link } from "react-router-dom"
+import { useCart } from "../../ui/context/CartContext"
 import "./GamesCard.css"
 
 export const GamesCard = ({ id, name, genre, price, platform }) => {
   const imageSrc = `/assets/juegos/${id}.jpg`
+  const { addToCart, openDrawer } = useCart()
 
   return (
     <article className="games-card">
@@ -22,9 +24,17 @@ export const GamesCard = ({ id, name, genre, price, platform }) => {
 
         <div className="games-footer">
           <span className="games-price">${price.toFixed(2)}</span>
-          <Link to={`/juego/${id}`} className="games-action" aria-label={`View details for ${name}`}>
+          <button
+            type="button"
+            className="games-action"
+            aria-label={`Add ${name} to cart`}
+            onClick={() => {
+              addToCart({ id, name, price, platform })
+              openDrawer()
+            }}
+          >
             →
-          </Link>
+          </button>
         </div>
       </div>
     </article>
