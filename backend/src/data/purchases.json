@@ -17,50 +17,8 @@
     "createdAt": "2026-05-06T01:18:44.939Z"
   },
   {
-    "id": "COMPRA-1778030938907-246",
-    "usuario": "rodrigo.mella20@inacapmail.cl",
-    "items": [
-      {
-        "gameId": "ps3",
-        "name": "Spider-Man 2",
-        "unitPrice": 69.99,
-        "quantity": 2,
-        "subtotal": 139.98,
-        "gameKey": "PS3-B3EB-6824-DED2"
-      }
-    ],
-    "total": 139.98,
-    "estado": "pagado",
-    "createdAt": "2026-05-06T01:28:58.907Z"
-  },
-  {
-    "id": "COMPRA-1778030952088-968",
-    "usuario": "rodrigo.mella20@inacapmail.cl",
-    "items": [
-      {
-        "gameId": "ps2",
-        "name": "The Last of Us Part II",
-        "unitPrice": 59.99,
-        "quantity": 1,
-        "subtotal": 59.99,
-        "gameKey": "PS2-DFE8-62B8-CB92"
-      },
-      {
-        "gameId": "ps3",
-        "name": "Spider-Man 2",
-        "unitPrice": 69.99,
-        "quantity": 1,
-        "subtotal": 69.99,
-        "gameKey": "PS3-D0FC-A88A-4FDF"
-      }
-    ],
-    "total": 129.98,
-    "estado": "pagado",
-    "createdAt": "2026-05-06T01:29:12.088Z"
-  },
-  {
-    "id": "COMPRA-1778031590994-714",
-    "usuario": "rodrigo.mella20@inacapmail.cl",
+    "id": "COMPRA-1778175680517-229",
+    "usuario": "rodrigo@gmail.com",
     "items": [
       {
         "gameId": "ps3",
@@ -68,206 +26,19 @@
         "unitPrice": 69.99,
         "quantity": 1,
         "subtotal": 69.99,
-        "gameKey": "PS3-7CCD-7386-3407"
-      }
-    ],
-    "total": 69.99,
-    "estado": "pagado",
-    "createdAt": "2026-05-06T01:39:50.994Z"
-  },
-  {
-    "id": "COMPRA-1778032445388-673",
-    "usuario": "rodrigo.mella20@inacapmail.cl",
-    "items": [
-      {
-        "gameId": "ps5",
-        "name": "Gran Turismo 7",
-        "unitPrice": 49.99,
-        "quantity": 1,
-        "subtotal": 49.99,
-        "gameKey": "PS5-18FF-C618-D794"
-      }
-    ],
-    "total": 49.99,
-    "estado": "pagado",
-    "createdAt": "2026-05-06T01:54:05.388Z"
-  },
-  {
-    "id": "COMPRA-1778032939937-24",
-    "usuario": "rodrigo.mella20@inacapmail.cl",
-    "items": [
-      {
-        "gameId": "nt2",
-        "name": "Super Mario Odyssey",
-        "unitPrice": 49.99,
-        "quantity": 1,
-        "subtotal": 49.99,
-        "gameKey": "NT2-BBF5-16EE-40D2"
-      }
-    ],
-    "total": 49.99,
-    "estado": "pagado",
-    "createdAt": "2026-05-06T02:02:19.937Z"
-  },
-  {
-    "id": "COMPRA-1778034052469-451",
-    "usuario": "rodrigo.mella20@inacapmail.cl",
-    "items": [
-      {
-        "gameId": "ps2",
-        "name": "The Last of Us Part II",
-        "unitPrice": 59.99,
-        "quantity": 1,
-        "subtotal": 59.99,
-        "gameKey": "PS2-D12E-6227-C5F0"
-      }
-    ],
-    "total": 59.99,
-    "estado": "pagado",
-    "createdAt": "2026-05-06T02:20:52.469Z"
-  },
-  {
-    "id": "COMPRA-1778035018677-796",
-    "usuario": "rodrigo.mella20@inacapmail.cl",
-    "items": [
-      {
-        "gameId": "ps2",
-        "name": "The Last of Us Part II",
-        "unitPrice": 59.99,
-        "quantity": 1,
-        "subtotal": 59.99,
-        "gameKey": "PS2-4F94-C1DA-57B1"
+        "gameKey": "PS3-B0C2-B1D6-223E"
       },
-      {
-        "gameId": "xb3",
-        "name": "Gears 5",
-        "unitPrice": 39.99,
-        "quantity": 1,
-        "subtotal": 39.99,
-        "gameKey": "XB3-896E-4975-A14C"
-      }
-    ],
-    "total": 99.98,
-    "estado": "pagado",
-    "createdAt": "2026-05-06T02:36:58.677Z"
-  },
-  {
-    "id": "COMPRA-1778035127995-406",
-    "usuario": "rodrigo.mella20@inacapmail.cl",
-    "items": [
       {
         "gameId": "ps4",
         "name": "Horizon Forbidden West",
         "unitPrice": 59.99,
         "quantity": 1,
         "subtotal": 59.99,
-        "gameKey": "PS4-8B90-F487-72A5"
+        "gameKey": "PS4-8598-C1D7-D350"
       }
     ],
-    "total": 59.99,
+    "total": 129.98,
     "estado": "pagado",
-    "createdAt": "2026-05-06T02:38:47.995Z"
-  },
-  {
-    "id": "COMPRA-1778035148350-582",
-    "usuario": "rodrigo.mella20@inacapmail.cl",
-    "items": [
-      {
-        "gameId": "ps3",
-        "name": "Spider-Man 2",
-        "unitPrice": 69.99,
-        "quantity": 3,
-        "subtotal": 209.97,
-        "gameKey": "PS3-5622-174A-0608"
-      }
-    ],
-    "total": 209.97,
-    "estado": "pagado",
-    "createdAt": "2026-05-06T02:39:08.350Z"
-  },
-  {
-    "id": "COMPRA-1778035266841-615",
-    "usuario": "rodrigo.mella20@inacapmail.cl",
-    "items": [
-      {
-        "gameId": "nt2",
-        "name": "Super Mario Odyssey",
-        "unitPrice": 49.99,
-        "quantity": 1,
-        "subtotal": 49.99,
-        "gameKey": "NT2-5AD5-E28A-0BD7"
-      }
-    ],
-    "total": 49.99,
-    "estado": "pagado",
-    "createdAt": "2026-05-06T02:41:06.841Z"
-  },
-  {
-    "id": "COMPRA-1778035352829-633",
-    "usuario": "rodrigo.mella20@inacapmail.cl",
-    "items": [
-      {
-        "gameId": "nt1",
-        "name": "The Legend of Zelda: Tears of the Kingdom",
-        "unitPrice": 69.99,
-        "quantity": 1,
-        "subtotal": 69.99,
-        "gameKey": "NT1-FB8A-A838-87CB"
-      }
-    ],
-    "total": 69.99,
-    "estado": "pagado",
-    "createdAt": "2026-05-06T02:42:32.829Z"
-  },
-  {
-    "id": "COMPRA-1778035561656-440",
-    "usuario": "rodrigo.mella20@inacapmail.cl",
-    "items": [
-      {
-        "gameId": "xb1",
-        "name": "Red Dead Redemption 2",
-        "unitPrice": 59.99,
-        "quantity": 1,
-        "subtotal": 59.99,
-        "gameKey": "XB1-D1BC-1C03-4137"
-      }
-    ],
-    "total": 59.99,
-    "estado": "pagado",
-    "createdAt": "2026-05-06T02:46:01.656Z"
-  },
-  {
-    "id": "COMPRA-1778035783846-461",
-    "usuario": "rodrigo.mella20@inacapmail.cl",
-    "items": [
-      {
-        "gameId": "nt4",
-        "name": "Animal Crossing: New Horizons",
-        "unitPrice": 49.99,
-        "quantity": 1,
-        "subtotal": 49.99,
-        "gameKey": "NT4-F2EA-C5B0-577B"
-      }
-    ],
-    "total": 49.99,
-    "estado": "pagado",
-    "createdAt": "2026-05-06T02:49:43.846Z"
-  },
-  {
-    "id": "COMPRA-1778035806127-514",
-    "usuario": "rodrigo.mella20@inacapmail.cl",
-    "items": [
-      {
-        "gameId": "nt5",
-        "name": "Super Smash Bros. Ultimate",
-        "unitPrice": 59.99,
-        "quantity": 1,
-        "subtotal": 59.99,
-        "gameKey": "NT5-F4A2-51D6-EFE6"
-      }
-    ],
-    "total": 59.99,
-    "estado": "pagado",
-    "createdAt": "2026-05-06T02:50:06.127Z"
+    "createdAt": "2026-05-07T17:41:20.517Z"
   }
 ]

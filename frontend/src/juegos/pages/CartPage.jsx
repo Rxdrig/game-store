@@ -109,11 +109,11 @@ export const CartPage = () => {
 
             <div className="col-lg-4">
               <aside className="cart-page-summary">
-                <h3>Order Summary</h3>
+                <h3>Resumen de la Compra</h3>
                 {error && <p className="text-danger">{error}</p>}
                 {message && <p className="text-success">{message}</p>}
                 <div className="summary-row">
-                  <span>Items</span>
+                  <span>Cantidad</span>
                   <span>{totalItems}</span>
                 </div>
                 <div className="summary-row total">
@@ -126,10 +126,10 @@ export const CartPage = () => {
                   onClick={handleCheckout}
                   disabled={isPaying}
                 >
-                  {isPaying ? "Procesando pago..." : "Proceed to Checkout"}
+                  {isPaying ? "Procesando pago..." : "Finalizar Compra"}
                 </button>
                 <button className="btn btn-outline-danger w-100 mt-2" onClick={clearCart}>
-                  Clear Cart
+                  limpiar carrito
                 </button>
 
               </aside>

@@ -67,19 +67,10 @@ export const HeroCarousel = () => {
           >
             <div className="slide-overlay"></div>
             <div className="slide-content">
-              <div className="slide-platform" style={{ color: platformData.color }}>
-                {platformData.label} {g.platform}
-              </div>
+
               <h2 className="slide-title">{g.title}</h2>
               <p className="slide-genre">{g.genre}</p>
-              <div className="slide-actions">
-                <Link 
-                  to={`/game/${g.id}`}
-                  className="btn-slide-view"
-                >
-                  View Details
-                </Link>
-              </div>
+
             </div>
           </div>
           )
