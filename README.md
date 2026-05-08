@@ -84,4 +84,3 @@ Algunas funcionalidades fueron implementadas de forma simplificada:
 - Los usuarios, juegos y compras se almacenan localmente
 - El inicio de sesión y registro funcionan como una simulación de autenticación básica
 - Las compras y pagos son simulados y no procesan transacciones reales
-- El enfoque principal del proyecto está orientado a la experiencia frontend, consumo de API REST y separación entre cliente y servidor
