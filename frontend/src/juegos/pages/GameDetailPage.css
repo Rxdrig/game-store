@@ -7,8 +7,8 @@
 
 /* Detail Header */
 .detail-header {
-  background: var(--secondary-dark);
-  border-bottom: 1px solid var(--border-dark);
+  background: linear-gradient(180deg, rgba(45, 30, 70, 1), rgba(35, 22, 55, 1));
+  border-bottom: 1px solid rgba(139, 92, 246, 0.18);
   padding: 1.5rem 0;
   margin-bottom: 2rem;
 }
@@ -16,7 +16,7 @@
 .back-button {
   background: none;
   border: none;
-  color: var(--text-light);
+  color: #ffffff;
   font-size: 1rem;
   font-weight: 500;
   cursor: pointer;
@@ -28,8 +28,14 @@
 }
 
 .back-button:hover {
-  color: var(--accent-purple);
+  color: #ffffff;
+  opacity: 0.9;
   transform: translateX(-4px);
+}
+
+.back-button:focus,
+.back-button:active {
+  color: #ffffff;
 }
 
 /* Detail Content */
