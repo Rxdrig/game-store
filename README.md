@@ -71,8 +71,17 @@ El objetivo del proyecto es mostrar una experiencia de compra clara y visualment
 
 La interfaz busca transmitir una identidad moderna y dinámica, con énfasis en la navegación por catálogo, la jerarquía visual de los juegos destacados y una experiencia fluida tanto en desktop como en dispositivos móviles
 
+
 ## Notas del proyecto
 
-- El backend utiliza archivos JSON como almacenamiento local
-- La sesión del usuario se maneja en el frontend para mantener la experiencia simple y rápida
+Game Store fue desarrollado principalmente para demostrar conocimientos en desarrollo frontend y backend, organización de aplicaciones full stack y construcción de interfaces modernas utilizando React, Node.js y Express
 
+El proyecto no busca representar una plataforma comercial completa, sino una simulación funcional de una tienda digital de videojuegos orientada a mostrar arquitectura, lógica de aplicación y experiencia de usuario
+
+Algunas funcionalidades fueron implementadas de forma simplificada:
+
+- El sistema de autenticación utiliza persistencia local mediante archivos JSON
+- Los usuarios, juegos y compras se almacenan localmente
+- El inicio de sesión y registro funcionan como una simulación de autenticación básica
+- Las compras y pagos son simulados y no procesan transacciones reales
+- El enfoque principal del proyecto está orientado a la experiencia frontend, consumo de API REST y separación entre cliente y servidor
