@@ -42,7 +42,6 @@ export const LoginPage = () => {
       <div className="login-container">
         {/* Brand Header */}
         <div className="login-header">
-          <div className="login-brand-mark">🎮</div>
           <h1 className="login-title">Game Store</h1>
         </div>
 
